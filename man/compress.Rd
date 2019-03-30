@@ -2,21 +2,25 @@
 % Please edit documentation in R/func_compress.R
 \name{compress}
 \alias{compress}
-\title{Title Compress images by memory size .}
+\title{Compress images}
 \usage{
-compress(img, b)
+compress(img_path, b, out_path)
 }
 \arguments{
-\item{img}{array}
+\item{img_path}{String , file path of the image}
 
-\item{b}{integer}
+\item{b}{Integer, desired byte size}
+
+\item{out_path}{String, a valid output path depending on the OS}
 }
 \value{
-array
+String, compressed image path
 }
 \description{
-Title Compress images by memory size .
+Compress the size an image by reducing the number of bits
+used to represent each pixel to b
 }
 \examples{
-compress(img,4)
+# compress("..data/image.png", 2L, "..data/compressed_image.png")
+
 }

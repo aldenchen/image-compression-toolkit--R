@@ -6,10 +6,19 @@
 \alias{imageCompressR-package}
 \title{imageCompressR: It compresses images}
 \description{
-It compresses image shape by cropping ,seam carving and reducing memory size .
+It compresses image shape by cropping and reducing memory size.
+    Compress function reduces the byte size of image, 
+    crop function crops the image form all sides.
+    Image_size function measures the size of the image (memory).
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com}
+\strong{Maintainer}: Sayanti Ghosh \email{sayanti.1986.ghosh@gmail.com}
+
+Authors:
+\itemize{
+  \item Aditya sharma \email{sayanti.1986.ghosh@gmail.com}
+  \item Alden Chen \email{sayanti.1986.ghosh@gmail.com}
+}
 
 }
 \keyword{internal}
